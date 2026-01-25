@@ -49,9 +49,8 @@ Where:
 
 ### 1️⃣ Electronic Hamiltonian (Second Quantization)
 
-```text
-H = Σ_{p,q} h_{pq} a†_p a_q
-    + 1/2 Σ_{p,q,r,s} h_{pqrs} a†_p a†_q a_r a_s
+```markdown
+The Hamiltonian is given by `H = Σ_{p,q} h_{pq} a†_p a_q`.
 
 ```
 This Hamiltonian captures:
