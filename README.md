@@ -225,3 +225,9 @@ All results are:
 ```bash
 pip install -r requirements.txt
 python main.py
+
+```
+---
+👤 Author
+
+Prashik N. Somkuwar
