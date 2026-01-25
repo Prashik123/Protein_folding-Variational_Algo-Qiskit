@@ -1,0 +1,7 @@
+qiskit==2.3.0
+qiskit-nature
+qiskit-algorithms
+pyscf
+numpy
+matplotlib
+pandas
