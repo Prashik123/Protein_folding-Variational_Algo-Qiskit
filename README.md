@@ -119,18 +119,21 @@ $$
 
 ```mermaid
 flowchart TD
-    A[Define Gly–Ile Geometry] --> B[Electronic Structure via PySCF]
-    B --> C[Active Space Reduction]
-    C --> D[Fermion to Qubit Mapping]
-    D --> E{Quantum Algorithm}
-    E -->|VQE| F[Parameterized Ansatz]
-    E -->|QAOA| G[Cost + Mixer Hamiltonians]
-    F --> H[Energy Minimization]
-    G --> H
-    H --> I[Ground-State Energy]
-    I --> J[Accuracy & Efficiency Analysis]
+    A["Define Gly–Ile Geometry"] --> B["Electronic Structure via PySCF"]
+    B --> C["Active Space Reduction"]
+    C --> D["Fermion to Qubit Mapping"]
 
----
+    D --> E{"Select Quantum Algorithm"}
+
+    E -->|VQE| F["Parameterized Ansatz (VQE)"]
+    E -->|QAOA| G["Cost & Mixer Hamiltonians (QAOA)"]
+
+    F --> H["Energy Minimization"]
+    G --> H
+
+    H --> I["Ground-State Energy"]
+    I --> J["Accuracy & Efficiency Analysis"]
+
 ```
 ## 📊 Results
 
