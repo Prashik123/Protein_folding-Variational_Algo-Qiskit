@@ -148,8 +148,8 @@ Ground-state energies obtained from **VQE** and **QAOA** were compared against a
 | VQE | -1.124 |
 | QAOA | -1.098 |
 
-✔ VQE closely approximates the classical ground state  
-✔ QAOA provides a competitive approximation using fewer circuit parameters  
+- VQE closely approximates the classical ground state  
+- QAOA provides a competitive approximation using fewer circuit parameters  
 
 ---
 
@@ -186,8 +186,8 @@ Where:
 | **VQE** | **85.1** | **86.3** |
 | **QAOA** | 82.0 | 83.4 |
 
-✔ Confirms the **~85% efficiency** reported in the project  
-✔ VQE outperforms QAOA for this molecular system  
+- Confirms the **~85% efficiency** reported in the project  
+- VQE outperforms QAOA for this molecular system  
 
 ---
 
