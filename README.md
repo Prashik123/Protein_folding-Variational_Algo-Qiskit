@@ -49,11 +49,11 @@ Where:
 
 ### 1️⃣ Electronic Hamiltonian (Second Quantization)
 
-$$
-H = \sum_{p,q} h_{pq} a_p^\dagger a_q
-+ \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a_p^\dagger a_q^\dagger a_r a_s
-$$
+```text
+H = Σ_{p,q} h_{pq} a†_p a_q
+    + 1/2 Σ_{p,q,r,s} h_{pqrs} a†_p a†_q a_r a_s
 
+```
 This Hamiltonian captures:
 - One-electron interactions
 - Two-electron Coulomb interactions
