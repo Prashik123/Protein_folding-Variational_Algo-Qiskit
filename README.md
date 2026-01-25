@@ -49,10 +49,9 @@ Where:
 
 ### 1️⃣ Electronic Hamiltonian (Second Quantization)
 
-```markdown
-The Hamiltonian is given by `H = Σ_{p,q} h_{pq} a†_p a_q`.
+The Hamiltonian is $H = \sum_{p,q} h_{pq} a^\dagger_p a_q + \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a^\dagger_p a^\dagger_q a_r a_s$.
 
-```
+
 This Hamiltonian captures:
 - One-electron interactions
 - Two-electron Coulomb interactions
