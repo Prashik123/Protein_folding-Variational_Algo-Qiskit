@@ -228,4 +228,4 @@ python main.py
 ---
 👤 Author
 
-Prashik N. Somkuwar
+Prashik N Somkuwar
