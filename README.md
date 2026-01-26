@@ -1,14 +1,14 @@
-# 🧬 Quantum Protein Folding using VQE & QAOA  
+#  Quantum Protein Folding using VQE & QAOA  
 ### QWorld Project | Qiskit Nature | Quantum Optimization Algorithms
 
 ---
 
-## 📌 Introduction
+##  Introduction
 
 Protein folding determines biological function, but simulating it **classically becomes intractable** as system size grows.  
 This repository demonstrates a **quantum optimization approach** to protein folding using **Variational Quantum Algorithms**.
 
-📍 **Project Context**  
+ **Project Context**  
 - Program: **QWorld Quantum Project**
 - Protein Fragment: **Gly–Ile (Insulin chain fragment)**
 - Framework: **Qiskit 2.3.0 + Qiskit Nature**
@@ -17,7 +17,7 @@ This repository demonstrates a **quantum optimization approach** to protein fold
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 The task is to determine the **most stable folded configuration** of a protein fragment by **minimizing its electronic ground-state energy**.
 
@@ -34,7 +34,7 @@ Where:
 
 ---
 
-## 🧠 Key Concepts Used
+##  Key Concepts Used
 
 - Quantum Chemistry (Electronic Structure)
 - Second Quantization
@@ -45,9 +45,9 @@ Where:
 
 ---
 
-## 🔬 Mathematical Background (GitHub-friendly)
+##  Mathematical Background (GitHub-friendly)
 
-### 1️⃣ Electronic Hamiltonian (Second Quantization)
+### 1️ Electronic Hamiltonian (Second Quantization)
 
 The Hamiltonian is $H = \sum_{p,q} h_{pq} a^\dagger_p a_q + \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a^\dagger_p a^\dagger_q a_r a_s$.
 
@@ -58,7 +58,7 @@ This Hamiltonian captures:
 
 ---
 
-### 2️⃣ Active Space Reduction
+### 2️ Active Space Reduction
 
 To make the problem feasible on NISQ hardware:
 - Number of electrons = **2**
@@ -68,7 +68,7 @@ This drastically reduces the required number of qubits.
 
 ---
 
-### 3️⃣ Fermion → Qubit Mapping
+### 3️ Fermion → Qubit Mapping
 
 Using **Parity Mapping**, the Hamiltonian is converted to a qubit operator:
 
@@ -82,9 +82,9 @@ Where:
 
 ---
 
-## ⚙️ Algorithms Used
+##  Algorithms Used
 
-### 🔹 Variational Quantum Eigensolver (VQE)
+### Variational Quantum Eigensolver (VQE)
 
 - Uses a **parameterized quantum circuit (ansatz)**
 - Classical optimizer minimizes expectation value:
@@ -98,7 +98,7 @@ $$
 
 ---
 
-### 🔹 Quantum Approximate Optimization Algorithm (QAOA)
+###  Quantum Approximate Optimization Algorithm (QAOA)
 
 - Alternates between:
   - Cost Hamiltonian ($H_C$)
@@ -113,7 +113,7 @@ $$
 
 ---
 
-## 🔁 Repository Workflow
+##  Repository Workflow
 
 ```mermaid
 flowchart TD
@@ -133,12 +133,12 @@ flowchart TD
     I --> J["Accuracy & Efficiency Analysis"]
 
 ```
-## 📊 Results
+##  Results
 
 The quantum algorithms were executed on the **Gly–Ile protein fragment** using a minimal STO-3G basis and an active-space approximation.  
 Ground-state energies obtained from **VQE** and **QAOA** were compared against a **classical Full Configuration Interaction (FCI)** reference.
 
-### 🔬 Ground-State Energy Comparison
+###  Ground-State Energy Comparison
 
 | Method | Ground-State Energy (Hartree) |
 |------|-------------------------------|
@@ -151,11 +151,11 @@ Ground-state energies obtained from **VQE** and **QAOA** were compared against a
 
 ---
 
-## 📈 Accuracy & Efficiency Metrics
+##  Accuracy & Efficiency Metrics
 
 To quantitatively evaluate performance, **efficiency** and **accuracy** metrics were computed relative to the classical benchmark.
 
-### 📐 Metric Definitions
+###  Metric Definitions
 
 **Efficiency (%)**
 
@@ -177,7 +177,7 @@ Where:
 
 ---
 
-## 📊 Benchmark Results (Quantum vs Classical)
+##  Benchmark Results (Quantum vs Classical)
 
 | Algorithm | Efficiency (%) | Accuracy (%) |
 |---------|----------------|--------------|
@@ -189,7 +189,7 @@ Where:
 
 ---
 
-## ⚡ Interpretation of Results
+##  Interpretation of Results
 
 - **VQE** achieves higher accuracy due to:
   - Expressive variational ansatz
@@ -202,7 +202,7 @@ Both algorithms demonstrate that **quantum optimization can approximate molecula
 
 ---
 
-## 🚀 Evidence of Quantum Advantage
+##  Evidence of Quantum Advantage
 
 This project highlights early-stage **quantum advantage** in molecular simulation:
 
@@ -213,7 +213,7 @@ This project highlights early-stage **quantum advantage** in molecular simulatio
 
 ---
 
-## 🧪 Reproducibility
+##  Reproducibility
 
 All results are:
 - Generated programmatically via `main.py`
