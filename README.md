@@ -136,7 +136,7 @@ $$
 flowchart TD
     A["Define Gly–Ile Geometry"] --> B["Electronic Structure via PySCF"]
     B --> C["Active Space Reduction"]
-    C --> D["Fermion to Qubit Mapping"]
+    C --> D["Fermion to Qubit Mapping using (Jordan- Wigner method)"]
 
     D --> E{"Select Quantum Algorithm"}
 
