@@ -49,9 +49,7 @@ Where:
 
 ### 1️ Electronic Hamiltonian (Second Quantization)
 
-The Hamiltonian is: $
-H = \sum_{p,q} h_{pq} a^\dagger_p a_q + \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a^\dagger_p a^\dagger_q a_r a_s
-$.
+The Hamiltonian is: $H = \sum_{p,q} h_{pq} a^\dagger_p a_q + \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a^\dagger_p a^\dagger_q a_r a_s$.
 
 
 This Hamiltonian captures:
