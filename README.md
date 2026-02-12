@@ -49,7 +49,7 @@ Where:
 
 ### 1️ Electronic Hamiltonian (Second Quantization)
 
-The Hamiltonian is $H = \sum_{p,q} h_{pq} a^\dagger_p a_q + \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a^\dagger_p a^\dagger_q a_r a_s$.
+The Hamiltonian is $$H = \sum_{p,q} h_{pq} a^\dagger_p a_q + \frac{1}{2} \sum_{p,q,r,s} h_{pqrs} a^\dagger_p a^\dagger_q a_r a_s$$.
 
 
 This Hamiltonian captures:
@@ -75,20 +75,18 @@ Using **Parity Mapping**, the Hamiltonian is converted to a qubit operator:
 **Jordan–Wigner–type mapping:**
 ### Fermionic Operator Mappings
 
-**Jordan–Wigner–type mapping:**
+**By Jordan–Wigner mapping:**
 
 $$
 a_j \;\rightarrow\; \left[\left(\prod_{k=0}^{j-1} X_k \right) Z_j \right] \;\otimes\; (\dots)
 $$
 
 
-**Most common Parity Mapping formulation (used in quantum chemistry):**
-
 $$
 a_j^\dagger \;\rightarrow\; \frac{1}{2}\,(X_j - iY_j)\;\otimes\;\left(\prod_{k=j+1}^{N-1} X_k \right)
 $$
 
-
+**Ultimately getting:**
 
 
 $$
