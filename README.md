@@ -73,19 +73,21 @@ This drastically reduces the required number of qubits.
 Using **Parity Mapping**, the Hamiltonian is converted to a qubit operator:
 
 **Jordan–Wigner–type mapping:**
-$$
-\[
-a_j \;\rightarrow\; \left[\left(\prod_{k=0}^{j-1} X_k \right) Z_j \right] \;\otimes\; (\dots)
-\]
+### Fermionic Operator Mappings
 
----
+**Jordan–Wigner–type mapping:**
+
+$$
+a_j \;\rightarrow\; \left[\left(\prod_{k=0}^{j-1} X_k \right) Z_j \right] \;\otimes\; (\dots)
+$$
+
 
 **Most common Parity Mapping formulation (used in quantum chemistry):**
 
-\[
-a_j^\dagger \;\rightarrow\; \frac{1}{2}\,(X_j - iY_j)\;\otimes\;\left(\prod_{k=j+1}^{N-1} X_k \right)
-\]
 $$
+a_j^\dagger \;\rightarrow\; \frac{1}{2}\,(X_j - iY_j)\;\otimes\;\left(\prod_{k=j+1}^{N-1} X_k \right)
+$$
+
 
 
 
