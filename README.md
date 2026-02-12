@@ -78,7 +78,7 @@ Using **Parity Mapping**, the Hamiltonian is converted to a qubit operator:
 **By Jordan–Wigner mapping:**
 
 $$
-a_j \;\rightarrow\; \left[\left(\prod_{k=0}^{j-1} X_k \right) Z_j \right] \;\otimes\; (\dots)
+a_j \;\rightarrow\; \left[\left(\prod_{k=0}^{j-1} X_k \right) Z_j \right] \\otimes\; (\dots)
 $$
 
 
