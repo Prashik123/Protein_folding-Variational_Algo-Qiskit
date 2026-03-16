@@ -1,4 +1,4 @@
-#  Quantum Protein Folding using VQE & QAOA  
+#  Quantum Protein Folding using VQE & QAOA 
 ### QWorld Project | Qiskit Nature | Quantum Optimization Algorithms
 
 ---
